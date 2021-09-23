@@ -5,4 +5,4 @@ FROM jupyter/minimal-notebook:177037d09156
 # https://github.com/jupyter/docker-stacks/tree/HEAD/datascience-notebook/Dockerfile
 
 # install additional package...
-RUN pip install --no-cache-dir astropy
+RUN pip install --no-cache-dir astropy sklearn matplotlib
